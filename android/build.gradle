@@ -8,9 +8,12 @@ version = '0.1.0'
 
 android {
   namespace "expo.modules.autofillprovider"
+  compileSdkVersion 36
   defaultConfig {
     versionCode 1
     versionName "0.1.0"
+    minSdkVersion 26
+    targetSdkVersion 36
   }
   lintOptions {
     abortOnError false

@@ -30,9 +30,10 @@
   "homepage": "https://github.com/shinobu-uwu/expo-autofill-provider#readme",
   "dependencies": {},
   "devDependencies": {
+    "@biomejs/biome": "2.4.8",
     "@types/react": "~19.1.1",
-    "expo-module-scripts": "^55.0.2",
     "expo": "^55.0.8",
+    "expo-module-scripts": "^55.0.2",
     "react-native": "0.82.1"
   },
   "peerDependencies": {
