@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-autofill-provider": ["../src/index"],
+      "expo-autofill-provider/*": ["../src/*"]
+    }
+  }
+}
